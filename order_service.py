@@ -6,8 +6,8 @@ from models import Order, Payment
 
 app = Flask(__name__)
 
-INVENTORY_URL = 'http://127.0.0.1:5001/update_inventory'
-PAYMENT_URL   = 'http://127.0.0.1:5002/process_payment'
+INVENTORY_URL = 'https://lirhea-inventory.onrender.com/update_inventory'
+PAYMENT_URL   = 'https://lirhea-payment.onrender.com/process_payment'
 
 @app.route('/place_order', methods=['POST'])
 def place_order():
