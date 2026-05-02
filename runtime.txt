@@ -1,1 +1,2 @@
 python-3.11.9
+requests==2.32.5
